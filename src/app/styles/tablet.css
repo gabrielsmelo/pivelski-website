@@ -1,0 +1,61 @@
+/* Tablet styles (642px - 768px) */
+@media (min-width: 642px) and (max-width: 768px) {
+  body #main {
+    padding-top: 3rem;
+  }
+
+  body .mainBlock {
+    width: 100%;
+    height: calc(100vh + 3rem);
+  }
+
+  body .mainVideo {
+    height: 100%;
+  }
+
+  body .spacerWrap {
+    bottom: -2.5rem;
+  }
+
+  body .mainTitle {
+    font-size: 5rem;
+    line-height: 6rem;
+    bottom: -1rem;
+  }
+
+  body .originTitle {
+    font-size: 5rem;
+  }
+
+  body .section {
+    min-width: calc(100vw - 10rem);
+    max-width: calc(100vw - 10rem);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  body .container {
+    max-width: 33%;
+    min-height: 600px;
+    max-height: 600px;
+    transition: max-width 0.3s ease-in-out;
+  }
+
+  body .company {
+    width: 28rem;
+    opacity: 0.8;
+  }
+
+  body .company:nth-child(-n + 4) {
+    border-bottom: 1px solid rgb(17 24 39);
+  }
+
+  body .company:nth-child(-n + 3) {
+    border-right: 1px solid rgb(17 24 39);
+  }
+
+  body .company:nth-child(n+5):nth-child(-n+7) {
+    border-right: 1px solid rgb(17 24 39);
+  }
+} 

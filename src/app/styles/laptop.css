@@ -1,0 +1,76 @@
+/* Laptop styles (769px - 1440px) */
+@media (min-width: 769px) and (max-width: 1440px) {
+  body #main {
+    padding-top: 2rem;
+  }
+
+  body .mainBlock {
+    width: 100%;
+    height: calc(100vh - 2rem);
+  }
+
+  body .mainVideo {
+    height: 100%;
+  }
+
+  body .spacerWrap {
+    bottom: 0rem;
+  }
+
+  body .mainTitle {
+    font-size: 5rem;
+    line-height: 6rem;
+    bottom: 1rem;
+  }
+
+  body .originTitle {
+    font-size: 5rem;
+  }
+
+  body .squareSection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  body .section {
+    min-width: calc(100vw - 4rem);
+    max-width: calc(100vw - 4rem);
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  body .originTitle {
+    margin-top: 1rem;
+  }
+
+  body .container {
+    max-width: 100%;
+    object-fit: cover;
+    height: 800px;
+    max-height: 800px;
+    position: relative;
+    right: 20px;
+    transition: max-width 0.3s ease-in-out;
+  }
+
+  body .company {
+    width: 15rem;
+    opacity: 0.8;
+  }
+
+  body .company:nth-child(-n + 4) {
+    border-bottom: 1px solid rgb(17 24 39);
+  }
+
+  body .company:nth-child(-n + 3) {
+    border-right: 1px solid rgb(17 24 39);
+  }
+
+  body .company:nth-child(n+5):nth-child(-n+7) {
+    border-right: 1px solid rgb(17 24 39);
+  }
+} 

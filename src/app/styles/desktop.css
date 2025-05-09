@@ -1,0 +1,56 @@
+/* Desktop styles (1441px and above) */
+@media (min-width: 1441px) {
+  body #main {
+    padding-top: 5rem;
+  }
+
+  body .mainBlock {
+    width: 100%;
+    height: calc(100vh - 5rem);
+  }
+
+  body .mainVideo {
+    height: 100%;
+    width: 100%;
+    aspect-ratio: auto;
+  }
+
+  body .mainTitle {
+    font-size: 8rem;
+  }
+
+  body .originTitle {
+    font-size: 8rem;
+  }
+
+  body .section {
+    min-width: calc(100vw - 5rem);
+    max-width: calc(100vw - 5rem);
+    gap: 1rem;
+  }
+
+  body .container {
+    max-width: 33%;
+    min-height: 600px;
+    max-height: 600px;
+    transition: max-width 0.3s ease-in-out;
+    object-fit: cover;
+  }
+
+  body .company {
+    width: 28rem;
+    opacity: 0.8;
+  }
+
+  body .company:nth-child(-n + 4) {
+    border-bottom: 1px solid rgb(17 24 39);
+  }
+
+  body .company:nth-child(-n + 3) {
+    border-right: 1px solid rgb(17 24 39);
+  }
+
+  body .company:nth-child(n+5):nth-child(-n+7) {
+    border-right: 1px solid rgb(17 24 39);
+  }
+} 

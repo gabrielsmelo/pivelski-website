@@ -1,0 +1,156 @@
+/* Mobile styles (320px - 641px) */
+@media (max-width: 641px) {
+  body #main {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  body .mainBlock {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  body .mainNav {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    position: fixed;
+    right: 1em;
+    top: 1em;
+    overflow: hidden;
+  }
+
+  body .slider {
+    padding: 10px;
+  }
+
+  body .mainVideo {
+    height: 100%;
+    overflow: hidden;
+    border-radius: 0;
+  }
+
+  body .spacerWrap {
+    bottom: 0rem;
+  }
+
+  body .mainTitle {
+    font-size: 3rem;
+    line-height: normal;
+    bottom: 0.5rem;
+    width: 90%;
+  }
+
+  body .mainBlock {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  body main {
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  body .bio {
+    font-size: 3.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  body .section {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  body .container {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  body .company {
+    width: 100%;
+    border-right: none;
+  }
+
+  body .company:nth-child(-n + 4) {
+    border-bottom: 1px solid rgb(17 24 39);
+  }
+
+  body .company:nth-child(-n + 3) {
+    border-right: none;
+  }
+
+  body .company:nth-child(n+5):nth-child(-n+7) {
+    border-right: none;
+  }
+
+  body .spacerIcon {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  body .originTitle {
+    margin-top: 1em;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  body .originVideo {
+    margin-top: 2.6em;
+    height: 800px;
+    width: 100%;
+    aspect-ratio: auto;
+  }
+
+  body .lastVideo {
+    margin-top: 2em;
+    height: 800px;
+    width: 100%;
+    aspect-ratio: auto;
+  }
+
+  body .getInTouch {
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  body .squareSection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  body .workTitle {
+    margin-top: 1em;
+  }
+
+  body .companyGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  body .section {
+    min-width: calc(100vw);
+    max-width: calc(100vw);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  body .container {
+    max-width: 100%;
+    object-fit: cover;
+    height: 800px;
+    max-height: 800px;
+    position: relative;
+    right: 20px;
+    transition: max-width 0.3s ease-in-out;
+  }
+} 
