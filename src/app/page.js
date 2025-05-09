@@ -12,7 +12,7 @@ import youtube from './assets/logos/youtube.svg';
 
 // Import videos
 const widescreen1 = '/assets/videos/caos.mp4';
-const widescreen2 = '/assets/videos/brands-e-arthur.mp4';
+const widescreen2 = '/assets/videos/brands-arthur.mp4';
 const widescreen3 = '/assets/videos/alee.mp4';
 const square1 = '/assets/videos/globoplay.mp4';
 const square2 = '/assets/videos/tiago-gomez.mp4';
