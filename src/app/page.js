@@ -66,14 +66,14 @@ export default function Home() {
         </div>
 
         <div className="section flex items-center justify-center self-center squareSection">
-          <video className="container rounded-3xl" autoPlay muted loop preload="true">
+          <video className="container rounded-3xl" playsInline controls={false} autoPlay muted loop preload="true">
             <source src={videos.square[0].src} alt={videos.square[0].alt} type="video/mp4"></source>
           </video>
           <div className="container flex flex-col justify-center rounded-3xl mr-5 ml-5 border-solid border border-gray-900">
             <h3 className="font-bold uppercase text-6xl text-center self-center">The story <br /> always <br /> comes first</h3>
             <p className="text-center self-center mt-5 font-bold uppercase text-neutral-500 text-xs">Pivelski films production</p>
           </div>
-          <video className="container rounded-3xl" autoPlay muted loop preload="true">
+          <video className="container rounded-3xl" playsInline controls={false} autoPlay muted loop preload="true">
             <source src={videos.square[1].src} alt={videos.square[1].alt} type="video/mp4"></source>
           </video>
         </div>
@@ -115,7 +115,7 @@ export default function Home() {
 
         <div className="section p-36 min-w-full max-w-full">
           <h2 className="uppercase font-bold originTitle">DIRETOR CRIATIVO NASCIDO NA BAHIA</h2>
-          <video className="rounded-3xl min-w-full mt-20 originVideo" autoPlay muted loop preload="true">
+          <video className="rounded-3xl min-w-full mt-20 originVideo" playsInline controls={false} autoPlay muted loop preload="true">
             <source src={videos.widescreen[1].src} alt={videos.widescreen[1].alt} type="video/mp4"></source>
           </video>
         </div>
@@ -128,7 +128,7 @@ export default function Home() {
         </div>
 
         <div className="relative">
-          <video className="lastVideo mt-36 rounded-3xl" autoPlay muted loop preload="true">
+          <video className="lastVideo mt-36 rounded-3xl" playsInline controls={false} autoPlay muted loop preload="true">
             <source src={videos.widescreen[2].src} alt={videos.widescreen[2].alt} type="video/mp4" />
             {"Your browser doesn't support this website."}
           </video>
