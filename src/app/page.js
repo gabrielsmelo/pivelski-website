@@ -46,7 +46,7 @@ export default function Home() {
       <nav className="mainNav"><a href="#main">HOME</a></nav>
       <main className="flex flex-col row-start-2 items-center sm:items-start">
         <div className="mainBlock">
-          <video className="mainVideo rounded-3xl" autoPlay muted loop preload="true">
+          <video className="mainVideo rounded-3xl" playsInline controls={false} autoPlay muted loop preload="true">
             <source src={videos.widescreen[0].src} alt={videos.widescreen[0].alt} type="video/mp4" />
             {"Your browser doesn't support this website."}
           </video>
