@@ -26,6 +26,7 @@ body {
   position: fixed;
   right: 2em;
   top: 2em;
+  z-index: 100;
 }
 
 .mainVideo, .originVideo, .lastVideo {
@@ -118,7 +119,6 @@ body {
 }
 
 .company {
-  width: 28rem;
   opacity: 0.8;
 }
 

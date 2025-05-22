@@ -1,5 +1,5 @@
 import Image from "next/image";
-import chivas from './assets/logos/chivas.png';
+import deezer from './assets/logos/deezer.png';
 import shein from './assets/logos/shein.png';
 import growth from './assets/logos/growth.png';
 import bubbaloo from './assets/logos/bubbaloo.png';
@@ -14,14 +14,14 @@ import youtube from './assets/logos/youtube.svg';
 const widescreen1 = '/assets/videos/caos.mp4';
 const widescreen2 = '/assets/videos/brands-arthur.mp4';
 const widescreen3 = '/assets/videos/alee.mp4';
-const square1 = '/assets/videos/globoplay.mp4';
+const square1 = '/assets/videos/paris.mp4';
 const square2 = '/assets/videos/tiago-gomez.mp4';
 
 const work = [
   { src: shein, alt: 'Shein' },
   { src: mercadolivre, alt: 'FL Studio', width: '200' },
   { src: growth, alt: 'Growth Suplementos', width: '180' },
-  { src: chivas, alt: 'Chivas', width: '200' },
+  { src: deezer, alt: 'Deezer', width: '160' },
   { src: bubbaloo, alt: 'Bubbaloo', width: '220' },
   { src: fashionNova, alt: 'FashionNova', width: '200' },
   { src: mcd, alt: 'More Core Division', width: '240'},
