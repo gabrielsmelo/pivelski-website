@@ -1,7 +1,7 @@
 import Image from "next/image";
 import deezer from './assets/logos/deezer.png';
 import shein from './assets/logos/shein.png';
-import growth from './assets/logos/growth.png';
+import globoplay from './assets/logos/globoplay.png';
 import bubbaloo from './assets/logos/bubbaloo.png';
 import fashionNova from './assets/logos/fashionNova.png';
 import mcd from './assets/logos/mcd.png';
@@ -20,7 +20,7 @@ const square2 = '/assets/videos/tiago-gomez.mp4';
 const work = [
   { src: shein, alt: 'Shein' },
   { src: mercadolivre, alt: 'FL Studio', width: '200' },
-  { src: growth, alt: 'Growth Suplementos', width: '180' },
+  { src: globoplay, alt: 'Globoplay', width: '180' },
   { src: deezer, alt: 'Deezer', width: '160' },
   { src: bubbaloo, alt: 'Bubbaloo', width: '220' },
   { src: fashionNova, alt: 'FashionNova', width: '200' },
@@ -70,7 +70,7 @@ export default function Home() {
             <source src={videos.square[0].src} alt={videos.square[0].alt} type="video/mp4"></source>
           </video>
           <div className="container flex flex-col justify-center rounded-3xl mr-5 ml-5 border-solid border border-gray-900">
-            <h3 className="font-bold uppercase text-6xl text-center self-center">The story <br /> always <br /> comes first</h3>
+            <h3 className="font-bold uppercase text-6xl text-center self-center">Narrativas visuais <br /> contadas <br /> como filmes</h3>
             <p className="text-center self-center mt-5 font-bold uppercase text-neutral-500 text-xs">Pivelski films production</p>
           </div>
           <video className="container rounded-3xl" playsInline controls={false} autoPlay muted loop preload="true">
@@ -81,7 +81,7 @@ export default function Home() {
         <div className="section text-nowrap self-center rounded-3xl mt-6 mb-6 p-9 border-solid border border-gray-900 uppercase font-bold text-3xl overflow-hidden min-w-full max-w-full">
           <div className="slider flex items-center">
             <div className="trackIcon" />
-            <h4>Director of Photography</h4>
+            <h4>Director</h4>
             <div className="trackIcon" />
             <h4>Short form</h4>
             <div className="trackIcon" />
@@ -89,19 +89,9 @@ export default function Home() {
             <div className="trackIcon" />
             <h4>Color grading</h4>
             <div className="trackIcon" />
-            <h4>Photo</h4>
+            <h4>Editor</h4>
             <div className="trackIcon" />
-            <h4>Director of Photography</h4>
-            <div className="trackIcon" />
-            <h4>Short form</h4>
-            <div className="trackIcon" />
-            <h4>Narrative</h4>
-            <div className="trackIcon" />
-            <h4>Color grading</h4>
-            <div className="trackIcon" />
-            <h4>Photo</h4>
-            <div className="trackIcon" />
-            <h4>Director of Photography</h4>
+            <h4>Director</h4>
             <div className="trackIcon" />
             <h4>Short form</h4>
             <div className="trackIcon" />
@@ -109,7 +99,17 @@ export default function Home() {
             <div className="trackIcon" />
             <h4>Color grading</h4>
             <div className="trackIcon" />
-            <h4>Photo</h4>
+            <h4>Editor</h4>
+            <div className="trackIcon" />
+            <h4>Director</h4>
+            <div className="trackIcon" />
+            <h4>Short form</h4>
+            <div className="trackIcon" />
+            <h4>Narrative</h4>
+            <div className="trackIcon" />
+            <h4>Color grading</h4>
+            <div className="trackIcon" />
+            <h4>Editor</h4>
           </div>
         </div>
 
@@ -134,7 +134,7 @@ export default function Home() {
           </video>
           <div className="absolute flex flex-col justify-center items-center inset-x-0 inset-y-0 mt-36">
             <p className="uppercase tracking-widest text-s font-bold mb-10">pivelski@gmail.com</p>
-            <h2 className="getInTouch font-bold uppercase text-9xl">Get in touch</h2>
+            <h2 className="getInTouch font-bold uppercase text-9xl">Contato</h2>
             <div className="flex items-center mt-10">
               <a className="contactButton" href="https://instagram.com/pivelski" target="_blank">
                 <Image src={instagram} className="invert" alt="Instagram" />
