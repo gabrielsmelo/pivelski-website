@@ -14,8 +14,8 @@ import youtube from './assets/logos/youtube.svg';
 const widescreen1 = '/assets/videos/caos.mp4';
 const widescreen2 = '/assets/videos/brands-arthur.mp4';
 const widescreen3 = '/assets/videos/alee.mp4';
-const square1 = '/assets/videos/paris.mp4';
-const square2 = '/assets/videos/tiago-gomez.mp4';
+const paris = '/assets/videos/paris.mp4';
+const r8 = '/assets/videos/tiago-gomez.mp4';
 
 const work = [
   { src: shein, alt: 'Shein' },
@@ -35,8 +35,8 @@ const videos = {
     { src: widescreen3, alt: 'ALEE' },
   ],
   square: [
-    { src: square1, alt: 'Globoplay' },
-    { src: square2, alt: 'Tiago Gomez' },
+    { src: r8, alt: 'Tiago Gomez - Audi R8' },
+    { src: paris, alt: 'Paris' },
   ]
 }
 
