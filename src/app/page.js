@@ -236,13 +236,13 @@ export default function Home() {
               >
                 <Image src={instagram} className="invert" alt="Instagram" />
               </a>
-              <a
+              {/* <a
                 className="contactButton"
                 href="https://youtube.com"
                 target="_blank"
               >
                 <Image src={youtube} className="invert" alt="Youtube" />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
